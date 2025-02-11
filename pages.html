@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cybercrat Portfolio</title>
+  <style>
+    /* Background and Fonts */
+    body {
+      background-color: #000;
+      color: #00ff00;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      margin: 0;
+    }
+    
+    .terminal {
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px #00ff00;
+      max-width: 800px;
+      width: 100%;
+      text-shadow: 0px 0px 5px #00ff00;
+    }
+    
+    h1 {
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+
+    .cursor {
+      display: inline-block;
+      background: #00ff00;
+      width: 10px;
+      height: 20px;
+      animation: blink 0.8s infinite;
+    }
+
+    @keyframes blink {
+      50% { background: transparent; }
+    }
+
+    a {
+      color: #00ff00;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .links {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <h1>> WELCOME TO CYBERCRAT [Version 1.337]</h1>
+    <p>> Connecting to <span class="highlight">cybercrat.github.io...</span></p>
+    <p>> SYSTEM CHECK: <span class="highlight">ALL SYSTEMS ONLINE</span></p>
+
+    <p>> Portfolio Owner: <strong>CYBERCRAT</strong></p>
+    <p>> "Where Tech Meets Cyberpunk Aesthetics"</p>
+
+    <div class="links">
+      <p>> Available Commands:</p>
+      <ul>
+        <li>> <a href="#about">About Me</a></li>
+        <li>> <a href="#projects">Projects</a></li>
+        <li>> <a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <section id="about">
+      <h2>> ABOUT ME:</h2>
+      <p>> Passionate cybersecurity researcher exploring tech innovation and hacker culture.</p>
+    </section>
+
+    <section id="projects">
+      <h2>> PROJECTS:</h2>
+      <p>> - [SaaS Key] Secure multi-client Unix-based encrypted chat system.</p>
+      <p>> - [IDS Research] Deep Learning applications for network anomaly detection.</p>
+    </section>
+
+    <section id="contact">
+      <h2>> CONTACT:</h2>
+      <p>> - Email: <a href="mailto:cybercrat@hackernet.com">cybercrat@hackernet.com</a></p>
+      <p>> - GitHub: <a href="https://github.com/cybercrat">cybercrat</a></p>
+    </section>
+
+    <p>> END OF LINE_<span class="cursor"></span></p>
+  </div>
+</body>
+</html>
